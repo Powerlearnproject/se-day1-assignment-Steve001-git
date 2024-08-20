@@ -3,7 +3,7 @@ name: Autograding Tests
 - push
 - repository_dispatch
 permissions:
-  checks: write
+  checks: 
   actions: read
   contents: read
 jobs:
